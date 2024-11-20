@@ -2,6 +2,8 @@
 #version de imagen mas reducida
 FROM node:23
 
+LABEL developer="Kelsy"
+
 #directorio de la aplicacion, del trabajo dentro de la maquina virtual
 WORKDIR /app
 
